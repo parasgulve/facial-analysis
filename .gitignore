@@ -1,0 +1,32 @@
+# Virtual environment (recreate with: pip install -r requirements.txt)
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Personal test media (your face / private data)
+test_image.*
+test_video.*
+*.mp4
+*.avi
+*.mov
+
+# Generated outputs (keep one sample in docs/ for the README)
+analysis_plot_*.png
+results_list.txt
+demo_results.txt
+
+# Downloaded model weights
+.deepface/
+*.h5
+*.weights
+
+# Secrets & OS / editor files
+.env
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

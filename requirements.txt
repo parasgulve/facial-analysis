@@ -1,0 +1,23 @@
+# Core Dependencies
+opencv-python==4.10.0.84
+numpy==1.26.4
+matplotlib==3.9.2
+
+# DeepFace and Deep Learning
+deepface==0.0.93
+tensorflow==2.16.1
+
+# TensorFlow GPU Support (CUDA 12.x compatible)
+# Note: Requires NVIDIA GPU with CUDA 12.x and cuDNN installed
+# Install CUDA Toolkit 12.x from: https://developer.nvidia.com/cuda-downloads
+# Install cuDNN from: https://developer.nvidia.com/cudnn
+
+# Additional DeepFace backends (optional)
+# tf-keras==2.15.0
+# retina-face==0.0.17
+# mtcnn==0.1.1
+
+# Utility packages
+pillow==10.4.0
+pandas==2.2.3
+gdown==5.2.0
